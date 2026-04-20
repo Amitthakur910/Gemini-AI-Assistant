@@ -1,0 +1,35 @@
+# 🔐 Environment variables (API keys)
+.env
+
+# 📦 Virtual environment
+venv/
+env/
+.venv/
+
+# 🧾 Logs
+feedback_log.txt
+*.log
+
+# 🐍 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🧪 Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 🛠️ Build / packaging
+build/
+dist/
+*.egg-info/
+
+# 💻 IDE / Editor files
+.vscode/
+.idea/
+
+# 🖥️ OS files
+.DS_Store
+Thumbs.db
