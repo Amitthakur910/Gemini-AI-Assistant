@@ -129,7 +129,7 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Amit Thakur**
+[**Amit Thakur**](https://www.linkedin.com/in/amit-thakur-in14356/)
 
 ---
 
