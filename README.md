@@ -1,30 +1,37 @@
 
-# 🤖 Gemini AI Assistant (CLI + GUI)
+```md
+# 🤖 Gemini AI Assistant (Streamlit UI)
 
-> A sleek Python-based AI assistant powered by Gemini API with both CLI and GUI interfaces.
+> A modern AI-powered assistant built with Python & Streamlit using Gemini API.  
+> Supports chat, summarization, creative writing, and advice with a sleek web interface.
 
 ---
 
 ## ✨ Features
 
-- 💬 Answer factual questions  
-- 📝 Summarize text  
-- 🎨 Generate creative content  
-- 🎯 Provide productivity & study advice  
-- 🖥️ Dual Interface:
-  - CLI (Terminal-based)
-  - GUI (Tkinter-based)
-- ⚡ Smart error handling (429, 503)
-- 🧠 Feedback logging system
+- 💬 ChatGPT-like interactive UI  
+- 🧠 Multiple Modes:
+  - Q&A (Ask anything)
+  - Summarization
+  - Creative Writing
+  - Advice / Productivity
+- 🕓 Chat History (session-based)
+- ⚡ Smart Error Handling:
+  - Handles 429 (rate limit)
+  - Handles 503 (server busy)
+- 🎨 Clean & responsive UI (Streamlit)
+- 📥 Example prompts (quick start)
+- 🗑️ Clear chat functionality
+- 🔐 Secure API key using `.env`
 
 ---
 
 ## 🛠️ Tech Stack
 
 - Python 🐍  
-- Tkinter (GUI)  
-- Gemini API (Google AI)  
-- dotenv  
+- Streamlit 🌐  
+- Gemini API (Google AI) 🤖  
+- python-dotenv  
 
 ---
 
@@ -34,8 +41,7 @@
 
 Gemini-AI-Assistant/
 │
-├── scripts/
-│   └── app.py
+├── app.py
 ├── .env
 ├── .gitignore
 ├── requirements.txt
@@ -96,28 +102,29 @@ GEMINI_API_KEY=your_api_key_here
 
 ---
 
-### 5️⃣ Run the application
+### 5️⃣ Run the app
 
 ```bash
-python scripts/app.py
+streamlit run app.py
 ```
 
 ---
 
 ## ⚠️ Error Handling
 
-* 🔁 Handles **429 (Rate Limit)** with retry logic
+* 🔁 Automatically retries on **429 (Too Many Requests)**
 * 🚦 Handles **503 (Server Busy)** gracefully
-* ⏱️ Implements request delay to prevent API spam
+* ⏱️ Implements delay to prevent API overuse
 
 ---
 
 ## 💡 Future Improvements
 
-* 💬 Chat history (like ChatGPT)
-* 🌐 Web version (Streamlit)
-* 🎤 Voice assistant
-* 🎨 Dark mode UI
+* 🎤 Voice input
+* 📄 File upload (PDF/Text summarizer)
+* 🌙 Dark mode toggle
+* 💾 Download chat as PDF
+* 🌐 Deploy on Streamlit Cloud
 
 ---
 
@@ -129,12 +136,14 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-[**Amit Thakur**](https://www.linkedin.com/in/amit-thakur-in14356/)
+**Amit Thakur**(https://www.linkedin.com/in/amit-thakur-in14356/)
 
 ---
 
-## ⭐ Show Some Love
+## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub!
 
 ---
+
+
